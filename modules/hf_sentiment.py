@@ -20,7 +20,7 @@ from __future__ import annotations
 import pandas as pd
 
 
-def classify_feedback(texts: pd.Series, batch_size: int = 16):
+def classify_feedback(texts: pd.Series, batch_size: int = 16) -> tuple[list[str], list[float]]:
     """Run a pretrained Hugging Face sentiment model over a Series of
     feedback text. Returns two lists: labels and confidence scores.
 
@@ -32,11 +32,24 @@ def classify_feedback(texts: pd.Series, batch_size: int = 16):
     scheme, or accept the 2-class output as a different (not directly
     comparable) signal.
     """
-    from transformers import pipeline  # imported lazily so this file
-    # doesn't hard-fail on import for anyone who hasn't installed
-    # transformers/torch and isn't using this optional module.
+    if texts is None or len(texts) == 0:
+        return [], []
 
-    classifier = pipeline("sentiment-analysis")
+    try:
+        from transformers import pipeline
+    except ImportError as e:
+        raise ImportError(
+            "The 'transformers' or 'torch' package is not installed. "
+            "Please run 'pip install transformers torch' to use this optional module."
+        ) from e
+
+    try:
+        classifier = pipeline("sentiment-analysis")
+    except Exception as e:
+        raise RuntimeError(
+            f"Failed to load Hugging Face sentiment pipeline: {e}. "
+            "Ensure you have internet connectivity to download model weights from huggingface.co."
+        ) from e
 
     labels, scores = [], []
     text_list = texts.fillna("").astype(str).tolist()
@@ -45,7 +58,7 @@ def classify_feedback(texts: pd.Series, batch_size: int = 16):
         batch = text_list[i:i + batch_size]
         results = classifier(batch)
         labels.extend(r["label"] for r in results)
-        scores.extend(round(r["score"], 3) for r in results)
+        scores.extend(round(float(r["score"]), 3) for r in results)
 
     return labels, scores
 
@@ -55,9 +68,20 @@ def flag_rating_text_mismatches(df: pd.DataFrame) -> pd.DataFrame:
     the star rating and the Hugging Face text-based sentiment disagree
     -- e.g. a 5-star rating with text the model reads as NEGATIVE.
 
-    Requires df to already have an 'hf_sentiment' column from
-    classify_feedback().
+    Requires df to already have 'rating' and 'hf_sentiment' columns.
     """
+    if df is None or df.empty:
+        return pd.DataFrame()
+
+    required_cols = {"rating", "hf_sentiment"}
+    if not required_cols.issubset(df.columns):
+        missing = required_cols - set(df.columns)
+        raise KeyError(
+            f"DataFrame is missing required column(s): {missing}. "
+            "Run classify_feedback() first to add 'hf_sentiment'."
+        )
+
     high_rating_negative_text = df[(df["rating"] >= 4) & (df["hf_sentiment"] == "NEGATIVE")]
     low_rating_positive_text = df[(df["rating"] <= 2) & (df["hf_sentiment"] == "POSITIVE")]
-    return pd.concat([high_rating_negative_text, low_rating_positive_text])
+
+    return pd.concat([high_rating_negative_text, low_rating_positive_text]).drop_duplicates()

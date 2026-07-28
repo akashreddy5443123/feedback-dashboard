@@ -1,0 +1,601 @@
+feedback_id,date,customer_name,product,channel,region,rating,sentiment,feedback_text
+FB0001,2025-09-08,Customer 1,Basic Plan,Email,APAC,4,Positive,Excellent value for money with the Basic Plan.
+FB0002,2025-02-02,Customer 2,Basic Plan,Twitter/X,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0003,2025-07-23,Customer 3,Browser Extension,Twitter/X,North America,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0004,2025-10-12,Customer 4,Pro Plan,Support Ticket,MEA,1,Negative,Support took too long to respond about the Pro Plan.
+FB0005,2025-06-09,Customer 5,Mobile App,App Store Review,APAC,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0006,2026-01-03,Customer 6,Basic Plan,Support Ticket,North America,2,Negative,The Basic Plan keeps crashing on my device.
+FB0007,2026-01-23,Customer 7,Mobile App,Twitter/X,North America,5,Positive,Excellent value for money with the Mobile App.
+FB0008,2025-03-13,Customer 8,Enterprise Plan,Twitter/X,Europe,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0009,2026-01-25,Customer 9,Basic Plan,In-App Survey,North America,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0010,2025-10-01,Customer 10,Enterprise Plan,App Store Review,Europe,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0011,2025-09-08,Customer 11,Browser Extension,In-App Survey,MEA,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0012,2025-02-27,Customer 12,Browser Extension,In-App Survey,APAC,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0013,2025-08-05,Customer 13,Mobile App,App Store Review,North America,2,Negative,Support took too long to respond about the Mobile App.
+FB0014,2025-05-27,Customer 14,Mobile App,Support Ticket,LATAM,4,Positive,Excellent value for money with the Mobile App.
+FB0015,2026-03-15,Customer 15,Browser Extension,App Store Review,MEA,2,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0016,2026-05-21,Customer 16,Pro Plan,In-App Survey,MEA,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0017,2025-03-07,Customer 17,Pro Plan,In-App Survey,LATAM,5,Positive,Excellent value for money with the Pro Plan.
+FB0018,2025-04-28,Customer 18,Enterprise Plan,Twitter/X,North America,3,Neutral,Average experience with the Enterprise Plan so far.
+FB0019,2026-03-22,Customer 19,Enterprise Plan,Email,APAC,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0020,2025-04-19,Customer 20,Browser Extension,In-App Survey,MEA,2,Negative,Not happy with recent changes to the Browser Extension.
+FB0021,2026-01-18,Customer 21,Browser Extension,In-App Survey,Europe,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0022,2025-01-20,Customer 22,Browser Extension,App Store Review,LATAM,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0023,2025-03-22,Customer 23,Pro Plan,Email,Europe,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0024,2026-05-02,Customer 24,Browser Extension,In-App Survey,Europe,1,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0025,2025-08-05,Customer 25,Browser Extension,Twitter/X,LATAM,1,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0026,2026-06-14,Customer 26,Mobile App,App Store Review,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0027,2025-08-24,Customer 27,Basic Plan,App Store Review,North America,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0028,2025-03-11,Customer 28,Basic Plan,Email,Europe,2,Negative,The Basic Plan keeps crashing on my device.
+FB0029,2026-05-13,Customer 29,Browser Extension,In-App Survey,APAC,4,Positive,Excellent value for money with the Browser Extension.
+FB0030,2026-04-30,Customer 30,Browser Extension,Support Ticket,Europe,1,Negative,The Browser Extension keeps crashing on my device.
+FB0031,2026-03-10,Customer 31,Basic Plan,Support Ticket,APAC,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0032,2025-04-22,Customer 32,Basic Plan,Support Ticket,APAC,4,Positive,Excellent value for money with the Basic Plan.
+FB0033,2025-07-07,Customer 33,Mobile App,In-App Survey,LATAM,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0034,2025-02-21,Customer 34,Mobile App,Twitter/X,North America,3,Neutral,"The Mobile App works fine, nothing special."
+FB0035,2026-02-21,Customer 35,Basic Plan,In-App Survey,Europe,4,Positive,The Basic Plan is intuitive and easy to use.
+FB0036,2025-01-03,Customer 36,Basic Plan,In-App Survey,LATAM,2,Negative,The Basic Plan is too slow and laggy.
+FB0037,2026-05-14,Customer 37,Enterprise Plan,Support Ticket,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0038,2025-03-04,Customer 38,Basic Plan,Twitter/X,MEA,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0039,2026-05-30,Customer 39,Basic Plan,Twitter/X,LATAM,1,Negative,The Basic Plan keeps crashing on my device.
+FB0040,2025-03-12,Customer 40,Browser Extension,Email,Europe,3,Neutral,"It does what it says, could use more features."
+FB0041,2025-09-10,Customer 41,Mobile App,Email,MEA,3,Neutral,"The Mobile App works fine, nothing special."
+FB0042,2026-06-20,Customer 42,Browser Extension,Email,LATAM,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0043,2026-02-10,Customer 43,Enterprise Plan,In-App Survey,APAC,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0044,2026-04-15,Customer 44,Enterprise Plan,Email,North America,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0045,2026-06-03,Customer 45,Basic Plan,Twitter/X,Europe,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0046,2025-06-11,Customer 46,Pro Plan,App Store Review,APAC,5,Positive,Excellent value for money with the Pro Plan.
+FB0047,2025-11-03,Customer 47,Browser Extension,Email,MEA,1,Negative,Support took too long to respond about the Browser Extension.
+FB0048,2025-06-09,Customer 48,Enterprise Plan,Email,North America,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0049,2026-05-16,Customer 49,Pro Plan,App Store Review,MEA,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0050,2025-01-04,Customer 50,Mobile App,App Store Review,North America,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0051,2026-03-14,Customer 51,Pro Plan,Support Ticket,MEA,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0052,2025-02-06,Customer 52,Basic Plan,In-App Survey,MEA,1,Negative,The Basic Plan is too slow and laggy.
+FB0053,2026-01-09,Customer 53,Pro Plan,Email,APAC,1,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0054,2025-12-29,Customer 54,Pro Plan,In-App Survey,North America,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0055,2025-06-16,Customer 55,Browser Extension,In-App Survey,Europe,1,Negative,The Browser Extension is too slow and laggy.
+FB0056,2026-02-26,Customer 56,Basic Plan,In-App Survey,APAC,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0057,2025-02-09,Customer 57,Pro Plan,Email,LATAM,1,Negative,Support took too long to respond about the Pro Plan.
+FB0058,2025-08-22,Customer 58,Mobile App,App Store Review,APAC,4,Positive,The Mobile App is intuitive and easy to use.
+FB0059,2025-10-13,Customer 59,Enterprise Plan,App Store Review,North America,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0060,2025-09-25,Customer 60,Enterprise Plan,Email,North America,5,Positive,"Really happy with the Enterprise Plan, it saved me a ton of time."
+FB0061,2025-12-20,Customer 61,Basic Plan,Twitter/X,LATAM,3,Neutral,Average experience with the Basic Plan so far.
+FB0062,2025-04-29,Customer 62,Mobile App,Twitter/X,MEA,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0063,2026-06-17,Customer 63,Basic Plan,Support Ticket,North America,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0064,2025-11-18,Customer 64,Mobile App,Email,APAC,3,Neutral,"The Mobile App works fine, nothing special."
+FB0065,2026-02-23,Customer 65,Enterprise Plan,Twitter/X,APAC,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0066,2026-01-24,Customer 66,Pro Plan,In-App Survey,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0067,2026-02-20,Customer 67,Browser Extension,Twitter/X,APAC,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0068,2025-11-26,Customer 68,Enterprise Plan,In-App Survey,LATAM,5,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0069,2025-03-28,Customer 69,Browser Extension,Support Ticket,Europe,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0070,2025-07-23,Customer 70,Pro Plan,App Store Review,Europe,4,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0071,2026-04-12,Customer 71,Mobile App,Twitter/X,North America,4,Positive,The Mobile App is intuitive and easy to use.
+FB0072,2025-06-01,Customer 72,Mobile App,Support Ticket,Europe,3,Neutral,"The Mobile App works fine, nothing special."
+FB0073,2025-06-30,Customer 73,Basic Plan,Support Ticket,Europe,2,Negative,The Basic Plan keeps crashing on my device.
+FB0074,2026-04-13,Customer 74,Browser Extension,In-App Survey,North America,5,Positive,Excellent value for money with the Browser Extension.
+FB0075,2026-03-30,Customer 75,Browser Extension,Twitter/X,APAC,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0076,2026-05-02,Customer 76,Browser Extension,Support Ticket,Europe,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0077,2025-10-09,Customer 77,Browser Extension,Support Ticket,Europe,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0078,2025-03-24,Customer 78,Enterprise Plan,App Store Review,APAC,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0079,2026-03-01,Customer 79,Pro Plan,In-App Survey,North America,5,Positive,The Pro Plan is intuitive and easy to use.
+FB0080,2026-02-03,Customer 80,Basic Plan,In-App Survey,LATAM,1,Negative,Not happy with recent changes to the Basic Plan.
+FB0081,2025-12-27,Customer 81,Mobile App,Support Ticket,North America,5,Positive,The Mobile App is intuitive and easy to use.
+FB0082,2025-08-14,Customer 82,Browser Extension,Twitter/X,MEA,5,Positive,The Browser Extension is intuitive and easy to use.
+FB0083,2025-12-11,Customer 83,Mobile App,Email,LATAM,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0084,2025-01-28,Customer 84,Pro Plan,Support Ticket,Europe,1,Negative,The Pro Plan keeps crashing on my device.
+FB0085,2025-07-06,Customer 85,Mobile App,In-App Survey,LATAM,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0086,2025-12-12,Customer 86,Pro Plan,Support Ticket,APAC,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0087,2025-03-25,Customer 87,Enterprise Plan,Support Ticket,APAC,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0088,2025-02-01,Customer 88,Pro Plan,Email,North America,1,Negative,The Pro Plan keeps crashing on my device.
+FB0089,2025-05-10,Customer 89,Browser Extension,In-App Survey,Europe,4,Positive,Excellent value for money with the Browser Extension.
+FB0090,2026-01-13,Customer 90,Pro Plan,Support Ticket,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0091,2025-01-27,Customer 91,Enterprise Plan,Email,MEA,2,Negative,The Enterprise Plan is too slow and laggy.
+FB0092,2025-09-06,Customer 92,Pro Plan,Email,MEA,5,Positive,Excellent value for money with the Pro Plan.
+FB0093,2025-12-22,Customer 93,Basic Plan,Twitter/X,North America,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0094,2026-03-07,Customer 94,Browser Extension,App Store Review,North America,1,Negative,The Browser Extension is too slow and laggy.
+FB0095,2026-03-22,Customer 95,Enterprise Plan,Support Ticket,Europe,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0096,2026-03-23,Customer 96,Browser Extension,Support Ticket,LATAM,2,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0097,2026-04-07,Customer 97,Pro Plan,Email,APAC,5,Positive,Excellent value for money with the Pro Plan.
+FB0098,2025-01-30,Customer 98,Browser Extension,Support Ticket,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0099,2025-09-22,Customer 99,Mobile App,In-App Survey,APAC,5,Positive,Excellent value for money with the Mobile App.
+FB0100,2025-03-29,Customer 100,Basic Plan,Twitter/X,Europe,5,Positive,The Basic Plan is intuitive and easy to use.
+FB0101,2026-05-18,Customer 101,Browser Extension,In-App Survey,LATAM,4,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0102,2025-09-07,Customer 102,Enterprise Plan,In-App Survey,LATAM,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0103,2026-03-12,Customer 103,Browser Extension,Twitter/X,APAC,2,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0104,2025-09-15,Customer 104,Mobile App,App Store Review,APAC,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0105,2025-07-16,Customer 105,Basic Plan,Twitter/X,Europe,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0106,2025-10-17,Customer 106,Browser Extension,Twitter/X,MEA,1,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0107,2025-11-06,Customer 107,Pro Plan,App Store Review,Europe,4,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0108,2025-10-27,Customer 108,Basic Plan,Email,MEA,3,Neutral,"It does what it says, could use more features."
+FB0109,2025-10-19,Customer 109,Mobile App,Email,North America,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0110,2026-05-05,Customer 110,Pro Plan,Email,APAC,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0111,2025-02-24,Customer 111,Mobile App,Email,MEA,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0112,2026-03-03,Customer 112,Pro Plan,Email,MEA,3,Neutral,"It does what it says, could use more features."
+FB0113,2026-03-30,Customer 113,Browser Extension,Support Ticket,LATAM,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0114,2025-04-12,Customer 114,Browser Extension,Twitter/X,North America,1,Negative,Support took too long to respond about the Browser Extension.
+FB0115,2025-09-03,Customer 115,Enterprise Plan,Email,Europe,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0116,2026-04-27,Customer 116,Basic Plan,Support Ticket,LATAM,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0117,2025-08-28,Customer 117,Enterprise Plan,Support Ticket,North America,1,Negative,The Enterprise Plan is too slow and laggy.
+FB0118,2025-06-02,Customer 118,Basic Plan,Twitter/X,Europe,1,Negative,The Basic Plan keeps crashing on my device.
+FB0119,2025-10-23,Customer 119,Basic Plan,In-App Survey,APAC,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0120,2026-05-21,Customer 120,Mobile App,App Store Review,MEA,4,Positive,The Mobile App is intuitive and easy to use.
+FB0121,2025-01-27,Customer 121,Enterprise Plan,Twitter/X,APAC,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0122,2026-04-27,Customer 122,Browser Extension,Email,Europe,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0123,2026-05-19,Customer 123,Pro Plan,Twitter/X,LATAM,2,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0124,2025-04-18,Customer 124,Mobile App,App Store Review,APAC,2,Negative,The Mobile App is too slow and laggy.
+FB0125,2025-02-07,Customer 125,Mobile App,App Store Review,LATAM,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0126,2026-06-11,Customer 126,Enterprise Plan,Email,LATAM,1,Negative,Not happy with recent changes to the Enterprise Plan.
+FB0127,2025-07-12,Customer 127,Mobile App,Support Ticket,North America,5,Positive,The Mobile App is intuitive and easy to use.
+FB0128,2025-05-15,Customer 128,Basic Plan,In-App Survey,APAC,2,Negative,The Basic Plan is too slow and laggy.
+FB0129,2025-09-03,Customer 129,Basic Plan,Email,MEA,3,Neutral,Average experience with the Basic Plan so far.
+FB0130,2026-02-22,Customer 130,Browser Extension,Email,MEA,4,Positive,The Browser Extension is intuitive and easy to use.
+FB0131,2025-10-26,Customer 131,Basic Plan,In-App Survey,LATAM,5,Positive,The Basic Plan is intuitive and easy to use.
+FB0132,2026-04-13,Customer 132,Mobile App,Support Ticket,Europe,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0133,2025-05-20,Customer 133,Pro Plan,Twitter/X,MEA,2,Negative,The Pro Plan is too slow and laggy.
+FB0134,2025-01-03,Customer 134,Enterprise Plan,Twitter/X,APAC,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0135,2026-04-03,Customer 135,Browser Extension,Support Ticket,Europe,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0136,2026-04-12,Customer 136,Browser Extension,Twitter/X,LATAM,1,Negative,Support took too long to respond about the Browser Extension.
+FB0137,2026-02-25,Customer 137,Browser Extension,Support Ticket,Europe,5,Positive,The Browser Extension is intuitive and easy to use.
+FB0138,2025-02-07,Customer 138,Mobile App,In-App Survey,LATAM,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0139,2026-04-13,Customer 139,Mobile App,Email,MEA,4,Positive,The Mobile App is intuitive and easy to use.
+FB0140,2025-09-29,Customer 140,Pro Plan,Email,LATAM,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0141,2025-11-21,Customer 141,Enterprise Plan,Twitter/X,LATAM,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0142,2025-03-12,Customer 142,Browser Extension,Email,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0143,2025-04-13,Customer 143,Basic Plan,Support Ticket,North America,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0144,2025-10-28,Customer 144,Basic Plan,App Store Review,North America,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0145,2025-07-04,Customer 145,Pro Plan,Twitter/X,LATAM,4,Positive,Excellent value for money with the Pro Plan.
+FB0146,2026-05-25,Customer 146,Mobile App,Twitter/X,Europe,1,Negative,Support took too long to respond about the Mobile App.
+FB0147,2025-09-19,Customer 147,Mobile App,App Store Review,LATAM,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0148,2025-03-17,Customer 148,Enterprise Plan,Twitter/X,Europe,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0149,2026-04-13,Customer 149,Enterprise Plan,Support Ticket,APAC,1,Negative,The Enterprise Plan is too slow and laggy.
+FB0150,2026-01-26,Customer 150,Mobile App,Email,Europe,3,Neutral,Average experience with the Mobile App so far.
+FB0151,2025-10-09,Customer 151,Enterprise Plan,Email,LATAM,4,Positive,Excellent value for money with the Enterprise Plan.
+FB0152,2025-12-27,Customer 152,Mobile App,App Store Review,Europe,4,Positive,Excellent value for money with the Mobile App.
+FB0153,2025-02-10,Customer 153,Enterprise Plan,In-App Survey,North America,5,Positive,"Really happy with the Enterprise Plan, it saved me a ton of time."
+FB0154,2025-04-03,Customer 154,Browser Extension,App Store Review,Europe,2,Negative,The Browser Extension is too slow and laggy.
+FB0155,2026-01-10,Customer 155,Pro Plan,In-App Survey,Europe,5,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0156,2025-12-13,Customer 156,Enterprise Plan,Support Ticket,APAC,2,Negative,The Enterprise Plan keeps crashing on my device.
+FB0157,2026-01-10,Customer 157,Pro Plan,In-App Survey,LATAM,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0158,2026-04-11,Customer 158,Enterprise Plan,Twitter/X,North America,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0159,2025-08-28,Customer 159,Mobile App,App Store Review,North America,5,Positive,Excellent value for money with the Mobile App.
+FB0160,2025-11-06,Customer 160,Pro Plan,Email,LATAM,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0161,2025-11-08,Customer 161,Pro Plan,Email,North America,1,Negative,The Pro Plan keeps crashing on my device.
+FB0162,2026-02-02,Customer 162,Pro Plan,Twitter/X,Europe,5,Positive,Excellent value for money with the Pro Plan.
+FB0163,2026-05-17,Customer 163,Pro Plan,Support Ticket,North America,3,Neutral,Average experience with the Pro Plan so far.
+FB0164,2026-03-31,Customer 164,Basic Plan,App Store Review,Europe,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0165,2026-01-03,Customer 165,Basic Plan,App Store Review,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0166,2025-08-06,Customer 166,Basic Plan,Support Ticket,North America,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0167,2025-05-09,Customer 167,Basic Plan,App Store Review,Europe,3,Neutral,"It does what it says, could use more features."
+FB0168,2025-08-10,Customer 168,Basic Plan,Twitter/X,Europe,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0169,2025-10-11,Customer 169,Pro Plan,Twitter/X,North America,1,Negative,Support took too long to respond about the Pro Plan.
+FB0170,2025-04-23,Customer 170,Browser Extension,App Store Review,Europe,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0171,2025-09-01,Customer 171,Pro Plan,Email,APAC,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0172,2025-05-10,Customer 172,Pro Plan,App Store Review,North America,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0173,2026-01-06,Customer 173,Basic Plan,Support Ticket,LATAM,4,Positive,The Basic Plan is intuitive and easy to use.
+FB0174,2025-02-14,Customer 174,Browser Extension,In-App Survey,MEA,3,Neutral,Average experience with the Browser Extension so far.
+FB0175,2026-05-06,Customer 175,Mobile App,Email,North America,2,Negative,The Mobile App keeps crashing on my device.
+FB0176,2025-03-24,Customer 176,Mobile App,Support Ticket,North America,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0177,2025-11-29,Customer 177,Pro Plan,App Store Review,MEA,5,Positive,The Pro Plan is intuitive and easy to use.
+FB0178,2025-04-12,Customer 178,Browser Extension,Twitter/X,LATAM,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0179,2026-04-08,Customer 179,Browser Extension,In-App Survey,LATAM,2,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0180,2025-04-08,Customer 180,Mobile App,Support Ticket,LATAM,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0181,2025-03-10,Customer 181,Enterprise Plan,In-App Survey,LATAM,4,Positive,"Really happy with the Enterprise Plan, it saved me a ton of time."
+FB0182,2025-05-14,Customer 182,Mobile App,Email,APAC,3,Neutral,Average experience with the Mobile App so far.
+FB0183,2026-03-10,Customer 183,Basic Plan,Support Ticket,APAC,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0184,2025-04-17,Customer 184,Browser Extension,App Store Review,APAC,3,Neutral,"It does what it says, could use more features."
+FB0185,2025-04-21,Customer 185,Pro Plan,Support Ticket,Europe,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0186,2026-03-16,Customer 186,Enterprise Plan,Twitter/X,Europe,1,Negative,Not happy with recent changes to the Enterprise Plan.
+FB0187,2025-10-07,Customer 187,Enterprise Plan,Email,Europe,3,Neutral,Average experience with the Enterprise Plan so far.
+FB0188,2025-07-05,Customer 188,Enterprise Plan,App Store Review,North America,2,Negative,The Enterprise Plan keeps crashing on my device.
+FB0189,2025-08-09,Customer 189,Pro Plan,Email,North America,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0190,2025-11-29,Customer 190,Pro Plan,App Store Review,APAC,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0191,2025-02-20,Customer 191,Basic Plan,In-App Survey,Europe,3,Neutral,Average experience with the Basic Plan so far.
+FB0192,2026-03-29,Customer 192,Mobile App,Support Ticket,LATAM,4,Positive,Excellent value for money with the Mobile App.
+FB0193,2025-04-24,Customer 193,Basic Plan,App Store Review,LATAM,5,Positive,Excellent value for money with the Basic Plan.
+FB0194,2026-02-09,Customer 194,Enterprise Plan,Email,Europe,1,Negative,The Enterprise Plan keeps crashing on my device.
+FB0195,2025-05-21,Customer 195,Pro Plan,App Store Review,Europe,3,Neutral,Average experience with the Pro Plan so far.
+FB0196,2026-05-25,Customer 196,Enterprise Plan,Email,North America,3,Neutral,"It does what it says, could use more features."
+FB0197,2025-08-24,Customer 197,Pro Plan,Support Ticket,MEA,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0198,2025-01-20,Customer 198,Mobile App,Email,LATAM,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0199,2026-02-19,Customer 199,Browser Extension,Support Ticket,MEA,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0200,2025-01-22,Customer 200,Enterprise Plan,Email,LATAM,1,Negative,Not happy with recent changes to the Enterprise Plan.
+FB0201,2026-03-24,Customer 201,Mobile App,App Store Review,North America,1,Negative,The Mobile App is too slow and laggy.
+FB0202,2025-03-22,Customer 202,Browser Extension,Support Ticket,MEA,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0203,2025-03-20,Customer 203,Pro Plan,App Store Review,Europe,4,Positive,Excellent value for money with the Pro Plan.
+FB0204,2025-12-26,Customer 204,Browser Extension,In-App Survey,APAC,3,Neutral,"It does what it says, could use more features."
+FB0205,2025-09-20,Customer 205,Pro Plan,Email,Europe,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0206,2026-04-05,Customer 206,Pro Plan,Support Ticket,LATAM,3,Neutral,Average experience with the Pro Plan so far.
+FB0207,2025-03-11,Customer 207,Enterprise Plan,In-App Survey,LATAM,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0208,2026-06-04,Customer 208,Browser Extension,Email,APAC,5,Positive,The Browser Extension is intuitive and easy to use.
+FB0209,2025-10-21,Customer 209,Basic Plan,Email,APAC,4,Positive,Excellent value for money with the Basic Plan.
+FB0210,2026-04-19,Customer 210,Browser Extension,Twitter/X,LATAM,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0211,2025-11-26,Customer 211,Mobile App,Twitter/X,Europe,3,Neutral,"It does what it says, could use more features."
+FB0212,2025-12-18,Customer 212,Basic Plan,Support Ticket,North America,1,Negative,Not happy with recent changes to the Basic Plan.
+FB0213,2026-03-25,Customer 213,Pro Plan,Email,Europe,1,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0214,2026-02-23,Customer 214,Enterprise Plan,App Store Review,LATAM,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0215,2025-04-07,Customer 215,Enterprise Plan,Email,APAC,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0216,2025-06-03,Customer 216,Enterprise Plan,App Store Review,MEA,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0217,2025-03-28,Customer 217,Enterprise Plan,Support Ticket,Europe,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0218,2026-03-10,Customer 218,Pro Plan,Twitter/X,North America,4,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0219,2025-12-16,Customer 219,Enterprise Plan,In-App Survey,Europe,2,Negative,Support took too long to respond about the Enterprise Plan.
+FB0220,2025-03-21,Customer 220,Pro Plan,In-App Survey,Europe,4,Positive,Excellent value for money with the Pro Plan.
+FB0221,2025-12-11,Customer 221,Browser Extension,Twitter/X,North America,1,Negative,Not happy with recent changes to the Browser Extension.
+FB0222,2025-07-05,Customer 222,Mobile App,In-App Survey,Europe,1,Negative,The Mobile App is too slow and laggy.
+FB0223,2025-09-01,Customer 223,Basic Plan,Support Ticket,APAC,2,Negative,The Basic Plan is too slow and laggy.
+FB0224,2025-11-13,Customer 224,Pro Plan,Twitter/X,Europe,2,Negative,Support took too long to respond about the Pro Plan.
+FB0225,2026-04-18,Customer 225,Enterprise Plan,Twitter/X,LATAM,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0226,2025-06-15,Customer 226,Browser Extension,Twitter/X,LATAM,1,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0227,2025-04-16,Customer 227,Basic Plan,Support Ticket,APAC,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0228,2025-10-07,Customer 228,Enterprise Plan,Email,Europe,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0229,2025-12-24,Customer 229,Basic Plan,In-App Survey,LATAM,2,Negative,The Basic Plan keeps crashing on my device.
+FB0230,2025-08-30,Customer 230,Mobile App,Twitter/X,APAC,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0231,2025-04-12,Customer 231,Pro Plan,Email,APAC,2,Negative,Support took too long to respond about the Pro Plan.
+FB0232,2026-04-29,Customer 232,Pro Plan,Email,APAC,3,Neutral,"It does what it says, could use more features."
+FB0233,2025-01-06,Customer 233,Mobile App,Support Ticket,MEA,1,Negative,"Billing issue with the Mobile App, still not resolved."
+FB0234,2026-06-25,Customer 234,Pro Plan,In-App Survey,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0235,2025-09-02,Customer 235,Enterprise Plan,Email,North America,5,Positive,"Really happy with the Enterprise Plan, it saved me a ton of time."
+FB0236,2025-01-17,Customer 236,Basic Plan,Support Ticket,MEA,3,Neutral,"It does what it says, could use more features."
+FB0237,2025-01-02,Customer 237,Pro Plan,App Store Review,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0238,2025-03-29,Customer 238,Browser Extension,Support Ticket,Europe,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0239,2026-06-04,Customer 239,Browser Extension,Twitter/X,MEA,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0240,2026-01-18,Customer 240,Mobile App,Email,LATAM,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0241,2025-04-17,Customer 241,Basic Plan,App Store Review,Europe,3,Neutral,Average experience with the Basic Plan so far.
+FB0242,2025-12-13,Customer 242,Pro Plan,Email,APAC,1,Negative,The Pro Plan is too slow and laggy.
+FB0243,2025-03-06,Customer 243,Mobile App,In-App Survey,Europe,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0244,2025-02-14,Customer 244,Basic Plan,App Store Review,Europe,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0245,2026-02-12,Customer 245,Enterprise Plan,App Store Review,MEA,2,Negative,"Billing issue with the Enterprise Plan, still not resolved."
+FB0246,2026-01-01,Customer 246,Basic Plan,In-App Survey,APAC,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0247,2026-03-24,Customer 247,Enterprise Plan,Email,APAC,2,Negative,The Enterprise Plan is too slow and laggy.
+FB0248,2026-05-25,Customer 248,Enterprise Plan,In-App Survey,LATAM,5,Positive,"Really happy with the Enterprise Plan, it saved me a ton of time."
+FB0249,2025-07-04,Customer 249,Mobile App,Email,LATAM,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0250,2025-11-10,Customer 250,Basic Plan,App Store Review,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0251,2025-02-13,Customer 251,Mobile App,App Store Review,LATAM,3,Neutral,Average experience with the Mobile App so far.
+FB0252,2025-02-28,Customer 252,Browser Extension,Support Ticket,APAC,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0253,2025-05-27,Customer 253,Browser Extension,In-App Survey,North America,2,Negative,The Browser Extension keeps crashing on my device.
+FB0254,2026-01-11,Customer 254,Pro Plan,Email,Europe,4,Positive,Excellent value for money with the Pro Plan.
+FB0255,2026-01-16,Customer 255,Pro Plan,Support Ticket,APAC,4,Positive,Excellent value for money with the Pro Plan.
+FB0256,2026-02-12,Customer 256,Pro Plan,Twitter/X,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0257,2026-05-27,Customer 257,Basic Plan,Email,Europe,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0258,2025-10-20,Customer 258,Enterprise Plan,Support Ticket,Europe,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0259,2025-03-17,Customer 259,Pro Plan,Email,Europe,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0260,2025-10-25,Customer 260,Enterprise Plan,App Store Review,North America,1,Negative,Support took too long to respond about the Enterprise Plan.
+FB0261,2025-05-05,Customer 261,Enterprise Plan,Twitter/X,Europe,1,Negative,Support took too long to respond about the Enterprise Plan.
+FB0262,2026-01-13,Customer 262,Mobile App,Email,APAC,4,Positive,Excellent value for money with the Mobile App.
+FB0263,2026-02-12,Customer 263,Basic Plan,Email,APAC,2,Negative,Not happy with recent changes to the Basic Plan.
+FB0264,2025-03-17,Customer 264,Mobile App,Support Ticket,MEA,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0265,2025-12-19,Customer 265,Mobile App,Support Ticket,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0266,2025-05-08,Customer 266,Mobile App,Twitter/X,North America,5,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0267,2025-12-21,Customer 267,Pro Plan,App Store Review,Europe,2,Negative,The Pro Plan keeps crashing on my device.
+FB0268,2025-10-09,Customer 268,Enterprise Plan,In-App Survey,MEA,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0269,2025-06-22,Customer 269,Browser Extension,Email,MEA,3,Neutral,"It does what it says, could use more features."
+FB0270,2025-12-12,Customer 270,Pro Plan,Twitter/X,MEA,1,Negative,The Pro Plan keeps crashing on my device.
+FB0271,2025-09-29,Customer 271,Basic Plan,Email,MEA,3,Neutral,The Basic Plan is okay but the onboarding was confusing.
+FB0272,2025-10-24,Customer 272,Browser Extension,Email,LATAM,3,Neutral,Average experience with the Browser Extension so far.
+FB0273,2025-11-01,Customer 273,Mobile App,In-App Survey,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0274,2026-04-21,Customer 274,Mobile App,Support Ticket,LATAM,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0275,2025-05-14,Customer 275,Enterprise Plan,App Store Review,LATAM,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0276,2025-05-06,Customer 276,Enterprise Plan,In-App Survey,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0277,2026-01-29,Customer 277,Basic Plan,Email,APAC,2,Negative,Support took too long to respond about the Basic Plan.
+FB0278,2025-11-17,Customer 278,Pro Plan,App Store Review,MEA,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0279,2025-11-12,Customer 279,Browser Extension,Support Ticket,LATAM,4,Positive,The Browser Extension is intuitive and easy to use.
+FB0280,2025-08-09,Customer 280,Browser Extension,Support Ticket,Europe,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0281,2026-04-27,Customer 281,Basic Plan,App Store Review,LATAM,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0282,2026-01-10,Customer 282,Mobile App,In-App Survey,APAC,3,Neutral,Average experience with the Mobile App so far.
+FB0283,2025-07-19,Customer 283,Basic Plan,Support Ticket,North America,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0284,2025-10-14,Customer 284,Mobile App,Twitter/X,LATAM,1,Negative,Support took too long to respond about the Mobile App.
+FB0285,2025-12-14,Customer 285,Basic Plan,Support Ticket,APAC,3,Neutral,Average experience with the Basic Plan so far.
+FB0286,2026-06-06,Customer 286,Pro Plan,In-App Survey,MEA,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0287,2026-05-01,Customer 287,Basic Plan,In-App Survey,APAC,4,Positive,Excellent value for money with the Basic Plan.
+FB0288,2025-11-23,Customer 288,Browser Extension,In-App Survey,APAC,5,Positive,Excellent value for money with the Browser Extension.
+FB0289,2026-05-17,Customer 289,Enterprise Plan,Twitter/X,MEA,3,Neutral,Average experience with the Enterprise Plan so far.
+FB0290,2025-12-06,Customer 290,Mobile App,Email,APAC,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0291,2026-05-01,Customer 291,Browser Extension,App Store Review,North America,4,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0292,2026-06-21,Customer 292,Browser Extension,Support Ticket,Europe,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0293,2025-04-23,Customer 293,Pro Plan,In-App Survey,North America,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0294,2025-07-28,Customer 294,Mobile App,In-App Survey,LATAM,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0295,2025-11-29,Customer 295,Pro Plan,Twitter/X,Europe,2,Negative,Not happy with recent changes to the Pro Plan.
+FB0296,2026-04-16,Customer 296,Mobile App,App Store Review,Europe,2,Negative,Not happy with recent changes to the Mobile App.
+FB0297,2026-05-11,Customer 297,Enterprise Plan,App Store Review,MEA,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0298,2025-11-01,Customer 298,Browser Extension,App Store Review,Europe,3,Neutral,"It does what it says, could use more features."
+FB0299,2025-12-24,Customer 299,Mobile App,App Store Review,LATAM,3,Neutral,Average experience with the Mobile App so far.
+FB0300,2026-01-24,Customer 300,Enterprise Plan,Email,MEA,2,Negative,"Billing issue with the Enterprise Plan, still not resolved."
+FB0301,2025-10-22,Customer 301,Pro Plan,App Store Review,North America,1,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0302,2025-08-08,Customer 302,Mobile App,App Store Review,LATAM,5,Positive,Excellent value for money with the Mobile App.
+FB0303,2025-09-03,Customer 303,Enterprise Plan,In-App Survey,North America,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0304,2025-12-05,Customer 304,Basic Plan,Email,LATAM,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0305,2025-06-11,Customer 305,Pro Plan,Email,MEA,5,Positive,The Pro Plan is intuitive and easy to use.
+FB0306,2025-10-20,Customer 306,Pro Plan,App Store Review,APAC,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0307,2025-02-08,Customer 307,Browser Extension,In-App Survey,MEA,1,Negative,The Browser Extension is too slow and laggy.
+FB0308,2026-05-23,Customer 308,Pro Plan,Email,LATAM,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0309,2025-04-20,Customer 309,Basic Plan,App Store Review,MEA,2,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0310,2026-05-21,Customer 310,Mobile App,Twitter/X,MEA,1,Negative,Not happy with recent changes to the Mobile App.
+FB0311,2025-04-26,Customer 311,Mobile App,App Store Review,Europe,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0312,2025-10-30,Customer 312,Pro Plan,Email,APAC,3,Neutral,"It does what it says, could use more features."
+FB0313,2026-03-14,Customer 313,Pro Plan,Twitter/X,LATAM,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0314,2026-05-04,Customer 314,Basic Plan,In-App Survey,Europe,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0315,2026-04-03,Customer 315,Enterprise Plan,Support Ticket,Europe,3,Neutral,Average experience with the Enterprise Plan so far.
+FB0316,2025-01-12,Customer 316,Enterprise Plan,Twitter/X,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0317,2025-11-11,Customer 317,Basic Plan,Email,LATAM,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0318,2025-08-15,Customer 318,Enterprise Plan,App Store Review,MEA,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0319,2026-01-18,Customer 319,Pro Plan,Support Ticket,MEA,5,Positive,Excellent value for money with the Pro Plan.
+FB0320,2025-03-25,Customer 320,Pro Plan,In-App Survey,MEA,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0321,2026-06-02,Customer 321,Browser Extension,Email,North America,4,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0322,2025-04-30,Customer 322,Enterprise Plan,Twitter/X,LATAM,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0323,2025-02-26,Customer 323,Basic Plan,Twitter/X,LATAM,5,Positive,The Basic Plan is intuitive and easy to use.
+FB0324,2026-04-19,Customer 324,Browser Extension,Email,MEA,3,Neutral,Average experience with the Browser Extension so far.
+FB0325,2025-01-04,Customer 325,Basic Plan,Support Ticket,APAC,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0326,2025-03-07,Customer 326,Basic Plan,Support Ticket,APAC,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0327,2026-02-23,Customer 327,Mobile App,Email,APAC,4,Positive,The Mobile App is intuitive and easy to use.
+FB0328,2026-01-22,Customer 328,Enterprise Plan,Support Ticket,LATAM,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0329,2026-02-07,Customer 329,Basic Plan,In-App Survey,MEA,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0330,2026-03-11,Customer 330,Basic Plan,App Store Review,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0331,2025-10-10,Customer 331,Mobile App,App Store Review,Europe,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0332,2025-09-04,Customer 332,Mobile App,Twitter/X,North America,4,Positive,Excellent value for money with the Mobile App.
+FB0333,2025-02-19,Customer 333,Basic Plan,Support Ticket,MEA,4,Positive,The Basic Plan is intuitive and easy to use.
+FB0334,2025-08-11,Customer 334,Mobile App,In-App Survey,MEA,3,Neutral,"The Mobile App works fine, nothing special."
+FB0335,2025-08-28,Customer 335,Pro Plan,Twitter/X,APAC,2,Negative,Not happy with recent changes to the Pro Plan.
+FB0336,2025-11-06,Customer 336,Browser Extension,App Store Review,Europe,1,Negative,The Browser Extension is too slow and laggy.
+FB0337,2025-06-29,Customer 337,Enterprise Plan,App Store Review,North America,3,Neutral,The Enterprise Plan is okay but the onboarding was confusing.
+FB0338,2025-12-19,Customer 338,Browser Extension,Support Ticket,North America,2,Negative,Not happy with recent changes to the Browser Extension.
+FB0339,2025-06-02,Customer 339,Enterprise Plan,Support Ticket,LATAM,4,Positive,Excellent value for money with the Enterprise Plan.
+FB0340,2025-11-04,Customer 340,Mobile App,In-App Survey,Europe,1,Negative,The Mobile App is too slow and laggy.
+FB0341,2026-03-03,Customer 341,Basic Plan,Twitter/X,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0342,2025-07-28,Customer 342,Mobile App,In-App Survey,APAC,4,Positive,The Mobile App is intuitive and easy to use.
+FB0343,2025-07-15,Customer 343,Enterprise Plan,Email,MEA,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0344,2025-07-12,Customer 344,Browser Extension,Email,North America,1,Negative,The Browser Extension is too slow and laggy.
+FB0345,2025-01-16,Customer 345,Pro Plan,App Store Review,APAC,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0346,2025-07-29,Customer 346,Mobile App,In-App Survey,MEA,4,Positive,Excellent value for money with the Mobile App.
+FB0347,2026-04-23,Customer 347,Enterprise Plan,App Store Review,LATAM,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0348,2026-05-25,Customer 348,Enterprise Plan,App Store Review,MEA,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0349,2026-02-28,Customer 349,Pro Plan,App Store Review,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0350,2026-03-04,Customer 350,Basic Plan,App Store Review,MEA,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0351,2025-09-09,Customer 351,Pro Plan,Support Ticket,MEA,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0352,2025-06-22,Customer 352,Mobile App,Support Ticket,LATAM,3,Neutral,Average experience with the Mobile App so far.
+FB0353,2026-05-16,Customer 353,Pro Plan,In-App Survey,MEA,4,Positive,Excellent value for money with the Pro Plan.
+FB0354,2025-01-07,Customer 354,Basic Plan,Email,North America,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0355,2026-06-02,Customer 355,Pro Plan,Email,Europe,4,Positive,Excellent value for money with the Pro Plan.
+FB0356,2025-01-17,Customer 356,Browser Extension,Support Ticket,LATAM,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0357,2025-10-21,Customer 357,Basic Plan,Twitter/X,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0358,2025-06-02,Customer 358,Basic Plan,Email,MEA,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0359,2026-01-18,Customer 359,Enterprise Plan,Support Ticket,North America,2,Negative,Not happy with recent changes to the Enterprise Plan.
+FB0360,2025-03-24,Customer 360,Pro Plan,In-App Survey,APAC,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0361,2026-01-22,Customer 361,Basic Plan,Support Ticket,LATAM,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0362,2026-05-27,Customer 362,Basic Plan,In-App Survey,North America,2,Negative,Not happy with recent changes to the Basic Plan.
+FB0363,2025-08-24,Customer 363,Basic Plan,Twitter/X,North America,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0364,2025-02-03,Customer 364,Basic Plan,Email,APAC,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0365,2026-02-12,Customer 365,Pro Plan,Twitter/X,Europe,2,Negative,Support took too long to respond about the Pro Plan.
+FB0366,2026-02-03,Customer 366,Browser Extension,In-App Survey,MEA,3,Neutral,Average experience with the Browser Extension so far.
+FB0367,2026-05-28,Customer 367,Mobile App,In-App Survey,North America,3,Neutral,Average experience with the Mobile App so far.
+FB0368,2025-08-26,Customer 368,Basic Plan,Email,LATAM,2,Negative,Not happy with recent changes to the Basic Plan.
+FB0369,2025-12-01,Customer 369,Browser Extension,Twitter/X,LATAM,5,Positive,The Browser Extension is intuitive and easy to use.
+FB0370,2026-01-20,Customer 370,Mobile App,In-App Survey,APAC,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0371,2025-03-17,Customer 371,Browser Extension,App Store Review,Europe,4,Positive,The Browser Extension is intuitive and easy to use.
+FB0372,2026-01-05,Customer 372,Pro Plan,Support Ticket,APAC,4,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0373,2025-04-15,Customer 373,Mobile App,App Store Review,APAC,4,Positive,The Mobile App is intuitive and easy to use.
+FB0374,2026-06-09,Customer 374,Mobile App,Twitter/X,MEA,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0375,2025-11-29,Customer 375,Enterprise Plan,Twitter/X,North America,1,Negative,"Billing issue with the Enterprise Plan, still not resolved."
+FB0376,2025-09-06,Customer 376,Mobile App,Support Ticket,North America,3,Neutral,"It does what it says, could use more features."
+FB0377,2025-10-03,Customer 377,Mobile App,In-App Survey,Europe,5,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0378,2025-10-10,Customer 378,Basic Plan,In-App Survey,LATAM,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0379,2026-05-23,Customer 379,Enterprise Plan,App Store Review,Europe,3,Neutral,"It does what it says, could use more features."
+FB0380,2025-11-08,Customer 380,Mobile App,Email,Europe,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0381,2026-03-27,Customer 381,Browser Extension,Support Ticket,APAC,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0382,2026-05-06,Customer 382,Enterprise Plan,Twitter/X,Europe,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0383,2025-09-06,Customer 383,Enterprise Plan,Support Ticket,MEA,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0384,2025-07-24,Customer 384,Enterprise Plan,Email,MEA,3,Neutral,"It does what it says, could use more features."
+FB0385,2025-08-03,Customer 385,Browser Extension,Email,LATAM,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0386,2025-11-07,Customer 386,Mobile App,Support Ticket,Europe,4,Positive,The Mobile App is intuitive and easy to use.
+FB0387,2026-05-06,Customer 387,Mobile App,Email,LATAM,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0388,2025-03-29,Customer 388,Browser Extension,Email,APAC,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0389,2026-02-14,Customer 389,Pro Plan,Twitter/X,North America,2,Negative,The Pro Plan is too slow and laggy.
+FB0390,2025-09-22,Customer 390,Basic Plan,Email,North America,4,Positive,The Basic Plan is intuitive and easy to use.
+FB0391,2026-05-28,Customer 391,Enterprise Plan,Support Ticket,LATAM,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0392,2025-03-29,Customer 392,Basic Plan,App Store Review,LATAM,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0393,2025-07-31,Customer 393,Enterprise Plan,App Store Review,LATAM,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0394,2025-11-23,Customer 394,Basic Plan,Support Ticket,LATAM,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0395,2025-06-18,Customer 395,Basic Plan,App Store Review,North America,1,Negative,Not happy with recent changes to the Basic Plan.
+FB0396,2025-12-05,Customer 396,Pro Plan,Twitter/X,Europe,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0397,2025-07-10,Customer 397,Pro Plan,Support Ticket,Europe,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0398,2025-07-22,Customer 398,Mobile App,Email,MEA,5,Positive,The Mobile App is intuitive and easy to use.
+FB0399,2025-10-13,Customer 399,Basic Plan,In-App Survey,Europe,3,Neutral,"The Basic Plan works fine, nothing special."
+FB0400,2025-07-11,Customer 400,Browser Extension,Email,MEA,4,Positive,The Browser Extension is intuitive and easy to use.
+FB0401,2026-06-25,Customer 401,Basic Plan,App Store Review,LATAM,2,Negative,Not happy with recent changes to the Basic Plan.
+FB0402,2025-04-27,Customer 402,Mobile App,Twitter/X,LATAM,5,Positive,Excellent value for money with the Mobile App.
+FB0403,2025-03-28,Customer 403,Pro Plan,App Store Review,MEA,3,Neutral,Average experience with the Pro Plan so far.
+FB0404,2025-04-30,Customer 404,Basic Plan,In-App Survey,APAC,4,Positive,Excellent value for money with the Basic Plan.
+FB0405,2025-05-22,Customer 405,Mobile App,Support Ticket,MEA,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0406,2025-06-27,Customer 406,Pro Plan,Support Ticket,MEA,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0407,2025-11-19,Customer 407,Enterprise Plan,In-App Survey,Europe,1,Negative,"Billing issue with the Enterprise Plan, still not resolved."
+FB0408,2025-07-19,Customer 408,Basic Plan,Support Ticket,Europe,2,Negative,The Basic Plan is too slow and laggy.
+FB0409,2026-05-16,Customer 409,Mobile App,Support Ticket,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0410,2025-08-19,Customer 410,Enterprise Plan,Email,APAC,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0411,2026-06-08,Customer 411,Browser Extension,Support Ticket,MEA,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0412,2025-02-12,Customer 412,Browser Extension,App Store Review,MEA,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0413,2025-04-15,Customer 413,Browser Extension,In-App Survey,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0414,2025-09-27,Customer 414,Enterprise Plan,Email,LATAM,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0415,2025-12-26,Customer 415,Basic Plan,In-App Survey,Europe,2,Negative,Support took too long to respond about the Basic Plan.
+FB0416,2025-07-31,Customer 416,Browser Extension,In-App Survey,Europe,2,Negative,Not happy with recent changes to the Browser Extension.
+FB0417,2025-06-22,Customer 417,Enterprise Plan,Twitter/X,MEA,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0418,2025-04-08,Customer 418,Browser Extension,App Store Review,MEA,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0419,2025-09-13,Customer 419,Enterprise Plan,In-App Survey,Europe,5,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0420,2025-10-03,Customer 420,Mobile App,Support Ticket,Europe,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0421,2026-02-17,Customer 421,Mobile App,Email,North America,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0422,2025-01-03,Customer 422,Mobile App,Support Ticket,APAC,1,Negative,The Mobile App is too slow and laggy.
+FB0423,2026-02-12,Customer 423,Enterprise Plan,Email,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0424,2025-10-18,Customer 424,Mobile App,App Store Review,APAC,4,Positive,Excellent value for money with the Mobile App.
+FB0425,2025-02-17,Customer 425,Mobile App,App Store Review,North America,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0426,2026-04-13,Customer 426,Basic Plan,In-App Survey,LATAM,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0427,2025-10-08,Customer 427,Pro Plan,App Store Review,Europe,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0428,2025-02-23,Customer 428,Basic Plan,App Store Review,Europe,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0429,2025-01-02,Customer 429,Mobile App,Email,North America,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0430,2026-04-01,Customer 430,Browser Extension,In-App Survey,MEA,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0431,2025-03-14,Customer 431,Mobile App,In-App Survey,LATAM,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0432,2025-11-03,Customer 432,Basic Plan,App Store Review,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0433,2025-01-09,Customer 433,Basic Plan,Twitter/X,MEA,3,Neutral,"It does what it says, could use more features."
+FB0434,2025-06-05,Customer 434,Mobile App,App Store Review,Europe,2,Negative,Support took too long to respond about the Mobile App.
+FB0435,2025-05-07,Customer 435,Basic Plan,Email,Europe,3,Neutral,The Basic Plan is okay but the onboarding was confusing.
+FB0436,2025-05-24,Customer 436,Enterprise Plan,Support Ticket,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0437,2025-10-19,Customer 437,Browser Extension,Twitter/X,MEA,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0438,2026-06-06,Customer 438,Enterprise Plan,In-App Survey,MEA,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0439,2026-01-31,Customer 439,Basic Plan,In-App Survey,LATAM,5,Positive,Excellent value for money with the Basic Plan.
+FB0440,2026-01-05,Customer 440,Basic Plan,Twitter/X,North America,1,Negative,The Basic Plan is too slow and laggy.
+FB0441,2025-06-26,Customer 441,Browser Extension,Support Ticket,APAC,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0442,2025-01-15,Customer 442,Basic Plan,Twitter/X,North America,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0443,2026-05-29,Customer 443,Mobile App,Twitter/X,APAC,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0444,2025-06-06,Customer 444,Mobile App,Email,MEA,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0445,2025-12-01,Customer 445,Browser Extension,In-App Survey,Europe,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0446,2025-09-08,Customer 446,Mobile App,In-App Survey,North America,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0447,2025-02-26,Customer 447,Mobile App,Twitter/X,MEA,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0448,2025-06-17,Customer 448,Basic Plan,In-App Survey,North America,5,Positive,Excellent value for money with the Basic Plan.
+FB0449,2026-01-16,Customer 449,Browser Extension,App Store Review,Europe,5,Positive,"Really happy with the Browser Extension, it saved me a ton of time."
+FB0450,2025-10-06,Customer 450,Basic Plan,App Store Review,LATAM,5,Positive,Excellent value for money with the Basic Plan.
+FB0451,2026-06-08,Customer 451,Basic Plan,Support Ticket,LATAM,5,Positive,Excellent value for money with the Basic Plan.
+FB0452,2025-09-19,Customer 452,Pro Plan,App Store Review,Europe,3,Neutral,"The Pro Plan works fine, nothing special."
+FB0453,2025-02-15,Customer 453,Pro Plan,Twitter/X,North America,1,Negative,Support took too long to respond about the Pro Plan.
+FB0454,2026-01-28,Customer 454,Basic Plan,Support Ticket,APAC,1,Negative,The Basic Plan keeps crashing on my device.
+FB0455,2025-11-26,Customer 455,Browser Extension,Support Ticket,Europe,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0456,2025-05-03,Customer 456,Basic Plan,Twitter/X,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0457,2026-02-15,Customer 457,Pro Plan,Twitter/X,North America,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0458,2026-04-13,Customer 458,Enterprise Plan,App Store Review,North America,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0459,2025-09-06,Customer 459,Browser Extension,App Store Review,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0460,2025-01-07,Customer 460,Browser Extension,In-App Survey,Europe,1,Negative,Support took too long to respond about the Browser Extension.
+FB0461,2025-12-10,Customer 461,Browser Extension,App Store Review,North America,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0462,2025-09-01,Customer 462,Basic Plan,In-App Survey,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0463,2025-08-26,Customer 463,Enterprise Plan,Email,North America,2,Negative,"Billing issue with the Enterprise Plan, still not resolved."
+FB0464,2025-04-08,Customer 464,Mobile App,Email,MEA,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0465,2026-03-22,Customer 465,Browser Extension,Twitter/X,North America,3,Neutral,"It does what it says, could use more features."
+FB0466,2025-11-19,Customer 466,Pro Plan,App Store Review,APAC,2,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0467,2025-08-28,Customer 467,Enterprise Plan,Support Ticket,APAC,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0468,2025-04-19,Customer 468,Browser Extension,Email,Europe,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0469,2026-01-02,Customer 469,Mobile App,Email,MEA,1,Negative,The Mobile App is too slow and laggy.
+FB0470,2025-05-03,Customer 470,Enterprise Plan,Support Ticket,APAC,5,Positive,Excellent value for money with the Enterprise Plan.
+FB0471,2025-06-01,Customer 471,Basic Plan,In-App Survey,APAC,4,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0472,2025-11-03,Customer 472,Mobile App,Twitter/X,North America,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0473,2025-09-13,Customer 473,Mobile App,Support Ticket,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0474,2025-08-16,Customer 474,Basic Plan,Email,North America,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0475,2025-09-23,Customer 475,Basic Plan,Twitter/X,MEA,1,Negative,The Basic Plan keeps crashing on my device.
+FB0476,2025-05-12,Customer 476,Basic Plan,In-App Survey,LATAM,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0477,2025-06-22,Customer 477,Basic Plan,Support Ticket,North America,2,Negative,The Basic Plan is too slow and laggy.
+FB0478,2026-03-13,Customer 478,Mobile App,Email,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0479,2025-06-02,Customer 479,Enterprise Plan,App Store Review,LATAM,4,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0480,2026-05-06,Customer 480,Mobile App,Support Ticket,MEA,5,Positive,The Mobile App is intuitive and easy to use.
+FB0481,2026-06-23,Customer 481,Pro Plan,Support Ticket,Europe,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0482,2026-05-12,Customer 482,Enterprise Plan,Support Ticket,MEA,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0483,2025-11-23,Customer 483,Enterprise Plan,In-App Survey,North America,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0484,2026-01-02,Customer 484,Enterprise Plan,Email,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0485,2025-09-04,Customer 485,Pro Plan,Email,Europe,4,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0486,2025-06-27,Customer 486,Browser Extension,Support Ticket,APAC,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0487,2025-05-26,Customer 487,Browser Extension,Email,APAC,3,Neutral,"It does what it says, could use more features."
+FB0488,2025-06-29,Customer 488,Mobile App,Twitter/X,APAC,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0489,2025-01-21,Customer 489,Pro Plan,Twitter/X,Europe,4,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0490,2025-12-15,Customer 490,Browser Extension,In-App Survey,Europe,3,Neutral,Average experience with the Browser Extension so far.
+FB0491,2025-05-26,Customer 491,Basic Plan,Email,Europe,3,Neutral,Average experience with the Basic Plan so far.
+FB0492,2025-04-14,Customer 492,Basic Plan,App Store Review,LATAM,5,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0493,2025-11-21,Customer 493,Pro Plan,Support Ticket,LATAM,5,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0494,2025-11-11,Customer 494,Browser Extension,In-App Survey,LATAM,3,Neutral,Average experience with the Browser Extension so far.
+FB0495,2026-02-05,Customer 495,Pro Plan,In-App Survey,North America,1,Negative,Support took too long to respond about the Pro Plan.
+FB0496,2025-08-15,Customer 496,Browser Extension,App Store Review,MEA,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0497,2025-03-21,Customer 497,Mobile App,In-App Survey,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0498,2025-01-12,Customer 498,Basic Plan,App Store Review,LATAM,4,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0499,2025-01-02,Customer 499,Enterprise Plan,App Store Review,North America,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0500,2026-01-23,Customer 500,Pro Plan,Support Ticket,LATAM,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0501,2025-06-16,Customer 501,Mobile App,Twitter/X,Europe,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0502,2025-04-18,Customer 502,Basic Plan,App Store Review,APAC,4,Positive,The Basic Plan is intuitive and easy to use.
+FB0503,2025-04-06,Customer 503,Pro Plan,Email,MEA,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0504,2026-03-21,Customer 504,Mobile App,In-App Survey,MEA,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0505,2025-09-29,Customer 505,Pro Plan,In-App Survey,LATAM,3,Neutral,Average experience with the Pro Plan so far.
+FB0506,2026-02-07,Customer 506,Pro Plan,Email,North America,3,Neutral,The Pro Plan is okay but the onboarding was confusing.
+FB0507,2025-01-04,Customer 507,Pro Plan,Email,APAC,5,Positive,Excellent value for money with the Pro Plan.
+FB0508,2025-01-27,Customer 508,Mobile App,In-App Survey,North America,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0509,2026-02-12,Customer 509,Mobile App,Email,APAC,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0510,2026-01-15,Customer 510,Browser Extension,Support Ticket,Europe,2,Negative,Support took too long to respond about the Browser Extension.
+FB0511,2026-03-27,Customer 511,Mobile App,Email,APAC,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0512,2025-04-10,Customer 512,Browser Extension,Email,Europe,5,Positive,Excellent value for money with the Browser Extension.
+FB0513,2025-03-04,Customer 513,Mobile App,Twitter/X,Europe,2,Negative,Not happy with recent changes to the Mobile App.
+FB0514,2026-05-03,Customer 514,Mobile App,Twitter/X,Europe,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0515,2025-05-31,Customer 515,Browser Extension,Twitter/X,MEA,5,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0516,2025-05-10,Customer 516,Pro Plan,In-App Survey,Europe,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0517,2025-09-22,Customer 517,Pro Plan,In-App Survey,MEA,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0518,2025-11-30,Customer 518,Mobile App,Twitter/X,LATAM,2,Negative,The Mobile App keeps crashing on my device.
+FB0519,2026-03-06,Customer 519,Browser Extension,Twitter/X,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0520,2025-04-13,Customer 520,Browser Extension,Twitter/X,MEA,1,Negative,"Billing issue with the Browser Extension, still not resolved."
+FB0521,2025-09-28,Customer 521,Browser Extension,App Store Review,LATAM,5,Positive,Excellent value for money with the Browser Extension.
+FB0522,2025-06-26,Customer 522,Browser Extension,Support Ticket,North America,4,Positive,Excellent value for money with the Browser Extension.
+FB0523,2026-02-10,Customer 523,Browser Extension,Support Ticket,North America,2,Negative,Support took too long to respond about the Browser Extension.
+FB0524,2026-01-17,Customer 524,Basic Plan,Support Ticket,APAC,5,Positive,"Love the new update to the Basic Plan, much smoother now."
+FB0525,2025-08-22,Customer 525,Enterprise Plan,Support Ticket,North America,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0526,2025-04-02,Customer 526,Enterprise Plan,Support Ticket,MEA,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0527,2025-02-27,Customer 527,Mobile App,Twitter/X,APAC,4,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0528,2025-05-19,Customer 528,Enterprise Plan,Twitter/X,LATAM,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0529,2025-03-01,Customer 529,Pro Plan,In-App Survey,Europe,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0530,2026-01-13,Customer 530,Enterprise Plan,In-App Survey,APAC,2,Negative,The Enterprise Plan keeps crashing on my device.
+FB0531,2026-05-16,Customer 531,Basic Plan,In-App Survey,APAC,3,Neutral,"It does what it says, could use more features."
+FB0532,2025-12-25,Customer 532,Mobile App,Twitter/X,MEA,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0533,2025-02-20,Customer 533,Enterprise Plan,Email,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Enterprise Plan."
+FB0534,2026-02-24,Customer 534,Pro Plan,In-App Survey,APAC,4,Positive,The Pro Plan is intuitive and easy to use.
+FB0535,2025-01-09,Customer 535,Pro Plan,In-App Survey,MEA,5,Positive,"Love the new update to the Pro Plan, much smoother now."
+FB0536,2026-04-16,Customer 536,Mobile App,Support Ticket,APAC,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0537,2025-04-15,Customer 537,Browser Extension,Twitter/X,LATAM,5,Positive,Excellent value for money with the Browser Extension.
+FB0538,2025-11-02,Customer 538,Browser Extension,Twitter/X,APAC,3,Neutral,The Browser Extension is okay but the onboarding was confusing.
+FB0539,2025-11-29,Customer 539,Basic Plan,App Store Review,APAC,2,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0540,2025-09-04,Customer 540,Pro Plan,In-App Survey,MEA,2,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0541,2025-10-30,Customer 541,Pro Plan,Email,LATAM,5,Positive,The Pro Plan is intuitive and easy to use.
+FB0542,2025-07-14,Customer 542,Mobile App,Email,MEA,4,Positive,Excellent value for money with the Mobile App.
+FB0543,2025-11-04,Customer 543,Mobile App,App Store Review,MEA,1,Negative,"Billing issue with the Mobile App, still not resolved."
+FB0544,2025-09-22,Customer 544,Basic Plan,Support Ticket,Europe,3,Neutral,"It does what it says, could use more features."
+FB0545,2025-12-30,Customer 545,Enterprise Plan,Email,Europe,5,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0546,2025-10-29,Customer 546,Enterprise Plan,App Store Review,APAC,4,Positive,The Enterprise Plan is intuitive and easy to use.
+FB0547,2025-03-14,Customer 547,Basic Plan,Twitter/X,MEA,4,Positive,Excellent value for money with the Basic Plan.
+FB0548,2025-11-02,Customer 548,Basic Plan,Support Ticket,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0549,2026-04-14,Customer 549,Pro Plan,App Store Review,LATAM,4,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0550,2025-11-17,Customer 550,Mobile App,App Store Review,Europe,3,Neutral,"The Mobile App works fine, nothing special."
+FB0551,2025-06-22,Customer 551,Mobile App,App Store Review,Europe,3,Neutral,"It does what it says, could use more features."
+FB0552,2026-03-21,Customer 552,Mobile App,Email,Europe,3,Neutral,The Mobile App is okay but the onboarding was confusing.
+FB0553,2025-01-05,Customer 553,Mobile App,Support Ticket,LATAM,4,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0554,2025-07-15,Customer 554,Basic Plan,App Store Review,MEA,4,Positive,"Great support experience, resolved my issue quickly on the Basic Plan."
+FB0555,2025-05-13,Customer 555,Pro Plan,App Store Review,APAC,5,Positive,"Great support experience, resolved my issue quickly on the Pro Plan."
+FB0556,2025-10-25,Customer 556,Basic Plan,Email,APAC,5,Positive,The Basic Plan is intuitive and easy to use.
+FB0557,2026-01-03,Customer 557,Pro Plan,App Store Review,LATAM,3,Neutral,"It does what it says, could use more features."
+FB0558,2025-08-18,Customer 558,Mobile App,Email,Europe,3,Neutral,"It does what it says, could use more features."
+FB0559,2026-06-01,Customer 559,Pro Plan,Email,MEA,5,Positive,"Really happy with the Pro Plan, it saved me a ton of time."
+FB0560,2025-02-19,Customer 560,Mobile App,App Store Review,MEA,3,Neutral,"The Mobile App works fine, nothing special."
+FB0561,2025-04-29,Customer 561,Basic Plan,Email,North America,5,Positive,"Really happy with the Basic Plan, it saved me a ton of time."
+FB0562,2025-06-06,Customer 562,Browser Extension,App Store Review,LATAM,4,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0563,2025-10-04,Customer 563,Mobile App,Email,MEA,3,Neutral,"It does what it says, could use more features."
+FB0564,2025-05-01,Customer 564,Mobile App,Email,MEA,4,Positive,The Mobile App is intuitive and easy to use.
+FB0565,2025-09-27,Customer 565,Pro Plan,Twitter/X,Europe,1,Negative,"Billing issue with the Pro Plan, still not resolved."
+FB0566,2025-02-10,Customer 566,Mobile App,App Store Review,Europe,4,Positive,The Mobile App is intuitive and easy to use.
+FB0567,2025-01-14,Customer 567,Enterprise Plan,In-App Survey,North America,3,Neutral,"The Enterprise Plan works fine, nothing special."
+FB0568,2025-04-03,Customer 568,Browser Extension,Support Ticket,Europe,3,Neutral,"The Browser Extension works fine, nothing special."
+FB0569,2026-04-13,Customer 569,Basic Plan,App Store Review,Europe,2,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0570,2025-06-28,Customer 570,Mobile App,Email,North America,2,Negative,"Billing issue with the Mobile App, still not resolved."
+FB0571,2025-04-08,Customer 571,Enterprise Plan,Support Ticket,North America,1,Negative,The Enterprise Plan keeps crashing on my device.
+FB0572,2026-01-02,Customer 572,Pro Plan,In-App Survey,APAC,2,Negative,The Pro Plan keeps crashing on my device.
+FB0573,2025-04-27,Customer 573,Enterprise Plan,App Store Review,Europe,5,Positive,"Love the new update to the Enterprise Plan, much smoother now."
+FB0574,2025-06-20,Customer 574,Mobile App,Support Ticket,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Mobile App."
+FB0575,2026-05-10,Customer 575,Basic Plan,Support Ticket,MEA,2,Negative,Support took too long to respond about the Basic Plan.
+FB0576,2025-01-30,Customer 576,Browser Extension,Support Ticket,APAC,1,Negative,The Browser Extension is too slow and laggy.
+FB0577,2026-03-28,Customer 577,Mobile App,Email,LATAM,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0578,2025-08-18,Customer 578,Basic Plan,Twitter/X,MEA,2,Negative,Not happy with recent changes to the Basic Plan.
+FB0579,2026-03-20,Customer 579,Browser Extension,Twitter/X,North America,3,Neutral,"It does what it says, could use more features."
+FB0580,2025-06-02,Customer 580,Mobile App,App Store Review,LATAM,1,Negative,The Mobile App keeps crashing on my device.
+FB0581,2026-05-23,Customer 581,Pro Plan,Twitter/X,LATAM,1,Negative,The Pro Plan is too slow and laggy.
+FB0582,2025-10-12,Customer 582,Enterprise Plan,In-App Survey,APAC,4,Positive,Excellent value for money with the Enterprise Plan.
+FB0583,2025-03-22,Customer 583,Mobile App,Support Ticket,Europe,5,Positive,"Really happy with the Mobile App, it saved me a ton of time."
+FB0584,2025-05-02,Customer 584,Mobile App,Support Ticket,APAC,1,Negative,The Mobile App keeps crashing on my device.
+FB0585,2025-01-01,Customer 585,Mobile App,Support Ticket,North America,2,Negative,Not happy with recent changes to the Mobile App.
+FB0586,2025-12-16,Customer 586,Browser Extension,In-App Survey,LATAM,4,Positive,"Great support experience, resolved my issue quickly on the Browser Extension."
+FB0587,2026-04-30,Customer 587,Mobile App,App Store Review,MEA,3,Neutral,Average experience with the Mobile App so far.
+FB0588,2025-08-16,Customer 588,Mobile App,Email,North America,5,Positive,"Love the new update to the Mobile App, much smoother now."
+FB0589,2025-04-19,Customer 589,Browser Extension,Twitter/X,APAC,4,Positive,The Browser Extension is intuitive and easy to use.
+FB0590,2025-09-18,Customer 590,Pro Plan,Support Ticket,North America,3,Neutral,"It does what it says, could use more features."
+FB0591,2026-04-14,Customer 591,Basic Plan,Support Ticket,Europe,1,Negative,"Billing issue with the Basic Plan, still not resolved."
+FB0592,2025-05-07,Customer 592,Basic Plan,Support Ticket,North America,3,Neutral,The Basic Plan is okay but the onboarding was confusing.
+FB0593,2025-05-18,Customer 593,Mobile App,Twitter/X,MEA,1,Negative,Not happy with recent changes to the Mobile App.
+FB0594,2026-05-10,Customer 594,Basic Plan,Twitter/X,LATAM,1,Negative,Not happy with recent changes to the Basic Plan.
+FB0595,2026-02-01,Customer 595,Pro Plan,In-App Survey,North America,3,Neutral,Average experience with the Pro Plan so far.
+FB0596,2025-09-12,Customer 596,Browser Extension,Support Ticket,LATAM,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0597,2026-02-27,Customer 597,Mobile App,In-App Survey,Europe,3,Neutral,Average experience with the Mobile App so far.
+FB0598,2025-08-11,Customer 598,Browser Extension,App Store Review,MEA,5,Positive,"Love the new update to the Browser Extension, much smoother now."
+FB0599,2025-11-27,Customer 599,Pro Plan,In-App Survey,MEA,3,Neutral,Average experience with the Pro Plan so far.
+FB0600,2026-03-04,Customer 600,Browser Extension,Support Ticket,MEA,3,Neutral,Average experience with the Browser Extension so far.

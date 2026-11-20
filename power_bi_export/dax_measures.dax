@@ -1,0 +1,186 @@
+/* =========================================================================
+   CUSTOMER FEEDBACK POWER BI REPORT - PRODUCTION DAX MEASURES PACKAGE
+   Repository: https://github.com/akashreddy5443123/feedback-dashboard
+   ========================================================================= */
+
+// -------------------------------------------------------------------------
+// 1. CORE VOLUME & GENERAL MEASURES
+// -------------------------------------------------------------------------
+
+// Total count of customer feedback entries
+Total Feedback = 
+COUNTROWS('Fact_CustomerFeedback')
+
+// Count of distinct products receiving feedback
+Total Products = 
+DISTINCTCOUNT('Fact_CustomerFeedback'[ProductKey])
+
+// Total count of distinct customers
+Total Customers = 
+DISTINCTCOUNT('Fact_CustomerFeedback'[CustomerName])
+
+
+// -------------------------------------------------------------------------
+// 2. RATING & SATISFACTION MEASURES
+// -------------------------------------------------------------------------
+
+// Average customer rating (1.00 to 5.00)
+Average Rating = 
+ROUND(AVERAGE('Fact_CustomerFeedback'[Rating]), 2)
+
+// Average rating specifically for a selected product (respects outer filters)
+Average Rating by Product = 
+CALCULATE(
+    [Average Rating],
+    ALLEXCEPT('Fact_CustomerFeedback', 'Dim_Product'[ProductName])
+)
+
+
+// -------------------------------------------------------------------------
+// 3. SENTIMENT COUNTS & PERCENTAGES
+// -------------------------------------------------------------------------
+
+// Count of feedback rows classified as Positive
+Positive Feedback Count = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    'Fact_CustomerFeedback'[IsPositive] = 1
+)
+
+// Count of feedback rows classified as Negative
+Negative Feedback Count = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    'Fact_CustomerFeedback'[IsNegative] = 1
+)
+
+// Count of feedback rows classified as Neutral
+Neutral Feedback Count = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    'Fact_CustomerFeedback'[IsNeutral] = 1
+)
+
+// Percentage of total feedback that is Positive
+Positive Feedback Percentage = 
+VAR TotalCount = [Total Feedback]
+VAR PosCount = [Positive Feedback Count]
+RETURN
+IF(
+    TotalCount > 0,
+    DIVIDE(PosCount, TotalCount, 0),
+    0
+)
+
+// Percentage of total feedback that is Negative
+Negative Feedback Percentage = 
+VAR TotalCount = [Total Feedback]
+VAR NegCount = [Negative Feedback Count]
+RETURN
+IF(
+    TotalCount > 0,
+    DIVIDE(NegCount, TotalCount, 0),
+    0
+)
+
+// Percentage of total feedback that is Neutral
+Neutral Feedback Percentage = 
+VAR TotalCount = [Total Feedback]
+VAR NeuCount = [Neutral Feedback Count]
+RETURN
+IF(
+    TotalCount > 0,
+    DIVIDE(NeuCount, TotalCount, 0),
+    0
+)
+
+
+// -------------------------------------------------------------------------
+// 4. CHANNEL & PRODUCT AGGREGATIONS
+// -------------------------------------------------------------------------
+
+// Feedback count by touchpoint channel
+Feedback Count by Channel = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    ALLEXCEPT('Fact_CustomerFeedback', 'Dim_Channel'[ChannelName])
+)
+
+// Feedback count by individual product
+Feedback Count by Product = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    ALLEXCEPT('Fact_CustomerFeedback', 'Dim_Product'[ProductName])
+)
+
+
+// -------------------------------------------------------------------------
+// 5. TIME INTELLIGENCE & MONTHLY TRENDS
+// -------------------------------------------------------------------------
+
+// Monthly volume of feedback records
+Monthly Feedback Count = 
+CALCULATE(
+    [Total Feedback],
+    DATESMTD('Dim_Date'[Date])
+)
+
+// Monthly average rating
+Monthly Average Rating = 
+CALCULATE(
+    [Average Rating],
+    DATESMTD('Dim_Date'[Date])
+)
+
+// Prior Month Average Rating
+Prior Month Average Rating = 
+CALCULATE(
+    [Average Rating],
+    PREVIOUSMONTH('Dim_Date'[Date])
+)
+
+// Month-over-Month (MoM) Rating Trajectory Delta
+MoM Rating Delta = 
+VAR CurrentRating = [Average Rating]
+VAR PriorRating = [Prior Month Average Rating]
+RETURN
+IF(
+    ISBLANK(PriorRating),
+    BLANK(),
+    CurrentRating - PriorRating
+)
+
+
+// -------------------------------------------------------------------------
+// 6. EXECUTIVE DECISION METRICS (NPS & CSAT)
+// -------------------------------------------------------------------------
+
+// Promoters (Ratings 4-5)
+Promoter Count = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    'Fact_CustomerFeedback'[Rating] >= 4
+)
+
+// Detractors (Ratings 1-2)
+Detractor Count = 
+CALCULATE(
+    COUNTROWS('Fact_CustomerFeedback'),
+    'Fact_CustomerFeedback'[Rating] <= 2
+)
+
+// Net Promoter Score [-100 to +100]
+NPS Score = 
+VAR TotalCount = [Total Feedback]
+VAR Promoters = [Promoter Count]
+VAR Detractors = [Detractor Count]
+RETURN
+IF(
+    TotalCount > 0,
+    ROUND(DIVIDE(Promoters - Detractors, TotalCount, 0) * 100, 1),
+    0
+)
+
+// Customer Satisfaction (CSAT %)
+CSAT Percentage = 
+DIVIDE([Promoter Count], [Total Feedback], 0)

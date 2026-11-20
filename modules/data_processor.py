@@ -110,6 +110,8 @@ def compute_kpis(df: pd.DataFrame) -> dict:
             "avg_rating": 0.0,
             "positive_pct": 0.0,
             "negative_pct": 0.0,
+            "nps_score": 0.0,
+            "csat_pct": 0.0,
         }
 
     total = len(df)
@@ -117,12 +119,64 @@ def compute_kpis(df: pd.DataFrame) -> dict:
     positive_pct = round((df["sentiment"] == "Positive").sum() / total * 100, 1)
     negative_pct = round((df["sentiment"] == "Negative").sum() / total * 100, 1)
 
+    # Net Promoter Score (NPS): Promoters (4-5) minus Detractors (1-2)
+    promoters = (df["rating"] >= 4).sum()
+    detractors = (df["rating"] <= 2).sum()
+    nps_score = round(((promoters - detractors) / total) * 100, 1)
+    csat_pct = round((promoters / total) * 100, 1)
+
     return {
         "total_feedback": total,
         "avg_rating": avg_rating,
         "positive_pct": positive_pct,
         "negative_pct": negative_pct,
+        "nps_score": nps_score,
+        "csat_pct": csat_pct,
     }
+
+
+def compute_nps(df: pd.DataFrame) -> dict:
+    """Detailed Net Promoter Score (NPS) breakdown."""
+    if df.empty:
+        return {
+            "nps_score": 0.0,
+            "promoter_count": 0,
+            "passive_count": 0,
+            "detractor_count": 0,
+            "promoter_pct": 0.0,
+            "passive_pct": 0.0,
+            "detractor_pct": 0.0,
+            "csat_pct": 0.0,
+        }
+
+    total = len(df)
+    promoters = int((df["rating"] >= 4).sum())
+    passives = int((df["rating"] == 3).sum())
+    detractors = int((df["rating"] <= 2).sum())
+
+    return {
+        "nps_score": round(((promoters - detractors) / total) * 100, 1),
+        "promoter_count": promoters,
+        "passive_count": passives,
+        "detractor_count": detractors,
+        "promoter_pct": round((promoters / total) * 100, 1),
+        "passive_pct": round((passives / total) * 100, 1),
+        "detractor_pct": round((detractors / total) * 100, 1),
+        "csat_pct": round((promoters / total) * 100, 1),
+    }
+
+
+def product_channel_matrix_data(df: pd.DataFrame) -> pd.DataFrame:
+    """Pivot table of average rating across products and channels."""
+    if df.empty or "product" not in df.columns or "channel" not in df.columns:
+        return pd.DataFrame()
+    pivot = df.pivot_table(
+        index="product",
+        columns="channel",
+        values="rating",
+        aggfunc="mean",
+    ).round(2)
+    return pivot
 
 
 def sentiment_over_time(df: pd.DataFrame, freq: str = "W") -> pd.DataFrame:

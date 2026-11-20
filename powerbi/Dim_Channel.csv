@@ -1,0 +1,6 @@
+ChannelKey,ChannelName,ChannelType
+C001,App Store Review,Public Storefront
+C002,Executive Account Review,Other
+C003,In-App Survey,In-Product Telemetry
+C004,Social Media (X / LinkedIn),Other
+C005,Zendesk Ticket,Other

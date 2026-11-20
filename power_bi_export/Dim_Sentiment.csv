@@ -1,0 +1,4 @@
+SentimentKey,Sentiment,ScoreWeight,HexColor
+1,Negative,-1,#E74C3C
+2,Neutral,0,#F1C40F
+3,Positive,1,#2ECC71
